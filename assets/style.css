@@ -1,0 +1,138 @@
+
+#headerBackground{
+    background-image: url(../images/helix-corp-website-top-image.jpg);
+    height: 250px;
+    width: 100%;
+    position:relative;
+}
+
+#companyTitle{
+    font-family:"Krona One", monospace;
+    color:white;
+    position:absolute;
+    bottom:0;
+    left: 50px;
+}
+
+#NavBar{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    border-bottom: 5px #CCCCCC solid;
+}
+
+#NavBarMenu{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+a,a:active, a:visited, a:hover{
+    color:inherit;
+    text-decoration: none;
+}
+
+.Subheading{
+    font-family:"Krona One", monospace;
+    color: #CCCCCC;
+    border-bottom: 2px white solid;
+}
+
+.bodyText {
+    font-family: "Space Grotesk", sans-serif;
+    color: #CCCCCC;
+    font-size: 14pt;
+    padding: 0 17%;
+}
+
+label{
+    font-family: "Space Grotesk", sans-serif;
+    color: #CCCCCC;
+    font-size: 14pt;
+    padding: 6px;
+}
+
+body{
+    /* background: linear-gradient(.25turn, #002855, 33%, #023E7D) */
+    background: black;
+}
+
+.textMain{
+    margin-left: 33%;
+    margin-right: 10%;
+    width: 56%;
+    height: 100%;
+}
+
+#recruitForm{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#recruitmentText{
+    width: 50%;
+    height: 100%;
+}
+
+div.textBlock{
+    position: relative;
+}
+
+
+#joinForm{
+    position: absolute;
+    top: 45%;
+    max-width: 300px;
+}
+
+#joinFieldset{
+    height: 450px;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+textarea{
+    height: 220px;
+}
+
+#joinButton{
+    margin-top: 20px;
+}
+
+
+.divisionAnchor{
+    font-size: 18pt;
+}
+
+.anchorText{
+    font-family: "Space Grotesk", sans-serif;
+    color: #CCCCCC;
+    font-size: 14pt;
+    padding-bottom: 25px;
+}
+
+ul{
+    list-style: none;
+}
+
+#productBoard{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#productHeading{
+    margin-left: 25%;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
